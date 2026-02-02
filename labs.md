@@ -138,17 +138,17 @@ Rewrite this prompt using the **few-shot technique** (provide 2-3 examples of in
 
 ### Your Improved Prompt:
 
-</details>
 
 ### Test It! 
 Paste your new prompt into ChatGPT with these sample meeting notes:
 
 > "Team discussed Q3 roadmap. Sarah mentioned we need to finalize the API documentation by end of month. John said he'd set up a meeting with the security team. Budget review pushed to next week per Maria's request. Everyone agreed to test the new deployment pipeline before Thursday."
 
+</details>
 ---
 
 <details>
-<summary>## Challenge 2: Apply Chain of Thought</summary>
+<summary>Challenge 2: Apply Chain of Thought</summary>
 
 ### Original Weak Prompt:
 ```
