@@ -8,14 +8,14 @@
 
 ### Objective
 Identify what's wrong with problematic prompts and explain how to fix them.
-
+<div style="position: sticky; top: 0; background: white; z-index: 10;">
 ### Instructions
 1. Work in your team of 2-3
 2. Review each "broken" prompt below
 3. Identify ALL issues (there may be multiple per prompt)
 4. Write a brief explanation of why it's a problem
 5. Suggest a specific fix (you don't need to rewrite the whole prompt)
-
+</div>
 ---
 
 ## Prompt A: The Support Ticket Handler
