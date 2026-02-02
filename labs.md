@@ -8,17 +8,18 @@
 
 ### Objective
 Identify what's wrong with problematic prompts and explain how to fix them.
-<div style="position: sticky; top: 0; background: white; z-index: 10;">
+
 ### Instructions
 1. Work in your team of 2-3
 2. Review each "broken" prompt below
 3. Identify ALL issues (there may be multiple per prompt)
 4. Write a brief explanation of why it's a problem
 5. Suggest a specific fix (you don't need to rewrite the whole prompt)
-</div>
+
 ---
 
-## Prompt A: The Support Ticket Handler
+<details>
+<summary>Prompt A: The Support Ticket Handler</summary>
 
 ```
 You are helpful. Respond to customer emails professionally. 
@@ -30,52 +31,19 @@ to your competitor."
 
 Write a response.
 ```
+</details>
 
-### Your Analysis:
 
-**Issues Found:**
-- [ ] Issue 1: _______________________________________________
-- [ ] Issue 2: _______________________________________________
-- [ ] Issue 3: _______________________________________________
-
-**Why These Are Problems:**
-
-_________________________________________________
-_________________________________________________
-
-**Suggested Fixes:**
-
-_________________________________________________
-_________________________________________________
-
----
-
-## Prompt B: The Report Generator
+<details>
+<summary>Prompt B: The Report Generator</summary>
 
 ```
 Make me a report about sales.
 ```
+</details>
 
-### Your Analysis:
-
-**Issues Found:**
-- [ ] Issue 1: _______________________________________________
-- [ ] Issue 2: _______________________________________________
-- [ ] Issue 3: _______________________________________________
-
-**Why These Are Problems:**
-
-_________________________________________________
-_________________________________________________
-
-**Suggested Fixes:**
-
-_________________________________________________
-_________________________________________________
-
----
-
-## Prompt C: The Code Reviewer
+<details>
+<summary>Prompt C: The Code Reviewer</summary>
 
 ```
 Review this code and tell me if it's good or bad:
@@ -94,27 +62,10 @@ Don't be too technical. Keep it simple but also explain
 all the computer science concepts. Make it short but comprehensive.
 And don't use bullet points but make it scannable.
 ```
+</details>
 
-### Your Analysis:
-
-**Issues Found:**
-- [ ] Issue 1: _______________________________________________
-- [ ] Issue 2: _______________________________________________
-- [ ] Issue 3: _______________________________________________
-
-**Why These Are Problems:**
-
-_________________________________________________
-_________________________________________________
-
-**Suggested Fixes:**
-
-_________________________________________________
-_________________________________________________
-
----
-
-## Prompt D: The Marketing Copy Writer
+<details>
+<summary>Prompt D: The Marketing Copy Writer</summary>
 
 ```
 Write social media posts for our new product launch. Make them 
@@ -122,27 +73,13 @@ engaging and viral. They should work on all platforms. Our product
 is innovative and best-in-class. Target everyone who might be 
 interested. Make it pop! Think outside the box and push the envelope.
 ```
+</details>
 
-### Your Analysis:
-
-**Issues Found:**
-- [ ] Issue 1: _______________________________________________
-- [ ] Issue 2: _______________________________________________
-- [ ] Issue 3: _______________________________________________
-
-**Why These Are Problems:**
-
-_________________________________________________
-_________________________________________________
-
-**Suggested Fixes:**
-
-_________________________________________________
-_________________________________________________
 
 ---
 
-## 💡 LAB 1 Answer Key (for facilitator / self-check)
+<details>
+<summary>💡 LAB 1 Answer Key</summary> 
 
 ### Prompt A Issues:
 1. **Vague role** — "You are helpful" provides no context about expertise, company, or communication style
@@ -170,6 +107,7 @@ _________________________________________________
 3. **Clichés instead of direction** — "Make it pop," "think outside the box," "push the envelope" are meaningless
 4. **Platform mismatch** — "Work on all platforms" ignores that Twitter, LinkedIn, TikTok, etc. have different formats, audiences, and norms
 5. **No constraints** — Character limits, hashtag requirements, CTA requirements, brand voice guidelines
+</details>
 
 ---
 
@@ -187,7 +125,8 @@ Take weak prompts and transform them into effective ones using specific techniqu
 
 ---
 
-## Challenge 1: Apply Few-Shot Learning
+<details>
+<summary>Challenge 1: Apply Few-Shot Learning</summary>
 
 ### Original Weak Prompt:
 ```
@@ -199,34 +138,7 @@ Rewrite this prompt using the **few-shot technique** (provide 2-3 examples of in
 
 ### Your Improved Prompt:
 
-```
-[Write your few-shot prompt here]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```
+</details>
 
 ### Test It! 
 Paste your new prompt into ChatGPT with these sample meeting notes:
@@ -235,7 +147,8 @@ Paste your new prompt into ChatGPT with these sample meeting notes:
 
 ---
 
-## Challenge 2: Apply Chain of Thought
+<details>
+<summary>## Challenge 2: Apply Chain of Thought</summary>
 
 ### Original Weak Prompt:
 ```
@@ -249,44 +162,18 @@ Rewrite this prompt using the **chain of thought technique** (explicitly ask for
 
 ### Your Improved Prompt:
 
-```
-[Write your chain of thought prompt here]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```
-
 ### Test It!
 Run both the original and your improved version in ChatGPT. Compare:
 - Does the improved version show clearer reasoning?
 - Can you verify the logic more easily?
 - Which would you trust more for an actual decision?
+</details>
 
 ---
 
-## Challenge 3: Apply Role + Constraints
+<details>
+  
+<summary>Challenge 3: Apply Role + Constraints</summary>
 
 ### Original Weak Prompt:
 ```
@@ -298,34 +185,6 @@ Rewrite this prompt using **role-based + constrained** techniques (assign a spec
 
 ### Your Improved Prompt:
 
-```
-[Write your role + constraints prompt here]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```
 
 ### Test It!
 Try multiple roles with the same base task:
@@ -333,11 +192,15 @@ Try multiple roles with the same base task:
 - What about "tech lead explaining to executives"?
 - How about "teacher explaining to high school students"?
 
+</details>
+
 ---
 
-## 💡 LAB 2 Sample Solutions
 
-### Challenge 1: Few-Shot Solution
+💡 LAB 2 Sample Solutions
+
+<details>
+<summary>Challenge 1: Few-Shot Solution</summary>
 
 ```
 Convert meeting notes into a structured list of action items.
@@ -374,10 +237,11 @@ Thursday."
 
 Action items:
 ```
-
+</details>
 ---
 
-### Challenge 2: Chain of Thought Solution
+<details>
+<summary>Challenge 2: Chain of Thought Solution</summary>
 
 ```
 Our startup has the following situation:
@@ -410,10 +274,12 @@ STEP 6: Final recommendation
 
 Show your math at each step.
 ```
+</details>
 
 ---
 
-### Challenge 3: Role + Constraints Solution
+<details>
+<summary>Challenge 3: Role + Constraints Solution</summary>
 
 ```
 You are a senior engineering manager who has successfully 
@@ -446,6 +312,7 @@ FORMAT:
 4. Everyday analogy
 5. Three client discovery questions
 ```
+</details>
 
 ---
 
