@@ -1,13 +1,10 @@
-# Prompt Engineering Labs
-## Hands-On Exercises for Teams of 2-3
+# Applied AI Engineering for the Enterprise
+## Day 1 - Hands-on Labs
 
 ---
 
-# 🧪 LAB 1: Diagnose the Prompt
-## Time: 10 minutes
-
-### Objective
-Identify what's wrong with problematic prompts and explain how to fix them.
+# LAB 1: Diagnose the Prompt
+## Purpose: Identify what's wrong with problematic prompts and explain how to fix them.
 
 ### Instructions
 1. Work in your team of 2-3
@@ -111,11 +108,8 @@ interested. Make it pop! Think outside the box and push the envelope.
 
 ---
 
-# 🧪 LAB 2: Prompt Transformation Challenge
-## Time: 10 minutes
-
-### Objective
-Take weak prompts and transform them into effective ones using specific techniques.
+# LAB 2: Prompt Transformation Challenge
+## Purpose: Take weak prompts and transform them into effective ones using specific techniques.
 
 ### Instructions
 1. Work in your team of 2-3
@@ -316,127 +310,6 @@ FORMAT:
 
 ---
 
-# 🧪 LAB 3: Real-World Prompt Building (OPTIONAL/BONUS)
-## Time: If time permits
-
-### Objective
-Build a complete, production-quality prompt for a realistic business scenario.
-
-### Instructions
-1. Work in your team of 2-3
-2. Choose ONE scenario below
-3. Build a complete prompt using ALL relevant elements (Role, Context, Task, Format, Constraints, Examples)
-4. Test it in ChatGPT
-5. Iterate at least once based on results
-6. Be prepared to share your prompt and results
-
----
-
-## Scenario Options
-
-### Option A: Customer Email Triage
-**Business Need:** Your support team gets 500+ emails daily. You need a prompt that categorizes emails and drafts initial responses.
-
-Build a prompt that:
-- Categorizes into: Urgent, Billing, Technical, General, Spam
-- Flags emails needing human escalation
-- Drafts a response template for non-urgent items
-- Handles angry customers appropriately
-
----
-
-### Option B: Interview Question Generator
-**Business Need:** Your HR team needs to generate role-specific interview questions that assess both technical skills and culture fit.
-
-Build a prompt that:
-- Takes a job title and key requirements as input
-- Generates behavioral and technical questions
-- Includes what a "good" answer would cover
-- Avoids legally problematic questions
-
----
-
-### Option C: Competitive Intelligence Summary
-**Business Need:** Your strategy team monitors competitor news but struggles to synthesize it into actionable insights.
-
-Build a prompt that:
-- Takes a collection of news snippets as input
-- Identifies key competitive moves
-- Assesses threat level to your business
-- Suggests potential responses
-- Outputs in executive-briefing format
-
----
-
-## Your Complete Prompt
-
-**Scenario Chosen:** _______________
-
-```
-[Write your complete prompt here]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```
-
----
-
-## Test Results
-
-**First Attempt - What Worked:**
-_________________________________________________
-_________________________________________________
-
-**First Attempt - What Didn't Work:**
-_________________________________________________
-_________________________________________________
-
-**Changes Made for Second Attempt:**
-_________________________________________________
-_________________________________________________
-
-**Final Results:**
-_________________________________________________
-_________________________________________________
-
----
 
 # Quick Reference Card
 
@@ -474,34 +347,142 @@ _________________________________________________
 
 ---
 
-# Notes Page
+# Lab #3 - Creating Your Own Intelligence Briefing
 
-Use this space for notes during the session:
+**Purpose: Use AI to help keep you up-to-date on AI.**
 
-_________________________________________________________
+<br><br>
 
-_________________________________________________________
+## Extended Prompt
 
-_________________________________________________________
+```
+"Please provide me with a structured AI intelligence briefing covering the last 7-14 days. Format your response as an executive briefing with the following sections:
+1. CRITICAL DEVELOPMENTS (What I Must Know)
 
-_________________________________________________________
+Major AI model releases or significant updates
+Regulatory changes or policy announcements
+Security/safety incidents or concerns
+Industry game-changers or disruptions
 
-_________________________________________________________
+2. TECHNICAL ADVANCES (What's New)
 
-_________________________________________________________
+New capabilities or benchmarks achieved
+Research breakthroughs (summarize in 1-2 sentences each)
+Open source releases worth noting
+Performance improvements in existing tools
 
-_________________________________________________________
+3. BUSINESS IMPACT (What Matters for Work)
 
-_________________________________________________________
+New enterprise AI tools or features
+Case studies of successful AI implementations
+ROI data or efficiency metrics published
+Vendor announcements (Microsoft, Google, AWS, etc.)
 
-_________________________________________________________
+4. PRACTICAL APPLICATIONS (What I Can Use Now)
 
-_________________________________________________________
+New tools I can try immediately (with links)
+Prompt engineering techniques or tips discovered
+Workflow improvements or automations
+Cost-effective AI solutions released
 
-_________________________________________________________
+5. INDUSTRY MOVEMENTS (Market Dynamics)
 
-_________________________________________________________
+Major funding rounds or acquisitions
+Partnership announcements
+Competitive landscape shifts
+Job market or skill demand changes
 
-_________________________________________________________
+6. LOOKING AHEAD (What's Coming)
 
-_________________________________________________________
+Upcoming releases or announcements to watch
+Scheduled conferences or events
+Predicted trends gaining momentum
+Emerging concerns or opportunities
+
+For each item, please:
+
+Include the DATE it was announced/published
+Provide a direct LINK to the source
+Keep descriptions to 2-3 sentences max
+Bold the most important items I shouldn't miss
+Flag anything requiring immediate action with 🚨
+
+End with a 'THREE THINGS TO DO THIS WEEK' section with specific, actionable recommendations based on the updates.
+Focus on practical, business-relevant developments over purely academic research. Prioritize information from the last 14 days, and clearly mark anything older as 'BACKGROUND' if it's essential context."
+
+```
+
+<br><br>
+
+## 1: Try out the simple one-line prompt
+
+Open claude.ai, chatgpt.com, gemini.google.com or your preferred AI assistant and copy and paste the simplified prompt below (substituting in your role and industry in the appropriate places):
+
+```
+What are the 5 most important AI developments from the last week that a [YOUR ROLE] in [YOUR INDUSTRY] needs to know, with links to learn more?
+```
+
+![simple query](./images/aia-0-13.png?raw=true "Simple query")
+
+<br><br>
+
+## 2: Review the output and note what is useful/not useful.
+
+<br><br>
+
+## 3: Try out the extended prompt.
+
+Copy and paste the extended prompt from the start of the lab into the AI assistant. Submit it. This will take several minutes to run.
+
+![full query](./images/aia-0-14.png?raw=true "Full query")
+
+<br><br>
+
+## 4: Review the output and notice differences and details vs the simpler prompt. 
+
+![full query output](./images/aia-0-15.png?raw=true "Full query output")
+
+<br><br>
+
+## 5: Run the extended prompt again but add the appropriate section (or create your own) for your role.
+
+For Technical Practitioners
+```
+Include code examples, GitHub repos, and technical implementation details. Focus on tools I can integrate into development workflows.
+```
+
+For Business Leaders
+```
+Emphasize ROI metrics, competitive advantages, and strategic implications. Include cost comparisons and vendor assessments.
+```
+For Specific Industries
+```
+Filter for developments specifically relevant to [YOUR INDUSTRY: healthcare/finance/retail/etc.]. Include industry-specific use cases and compliance considerations.
+```
+
+![adding specialization](./images/aia-0-16.png?raw=true "Adding specialization")
+
+<br><br>
+
+## 6: Review the output with the additional details.
+
+![full report output](./images/aia-0-17.png?raw=true "Full report output")
+
+<br><br>
+
+## 7: What would you change/add/delete to make the results better for you? Try out any changes you want to make to fine-tune and make this most useful.
+
+
+<p align="center">
+<b>[END OF LAB]</b>
+</p>
+</br></br>
+
+
+<p align="center">
+<b>For educational use only by the attendees of our workshops.</b>
+</p>
+
+<p align="center">
+<b>(c) 2025 Tech Skills Transformations and Brent C. Laster. All rights reserved.</b>
+</p>
