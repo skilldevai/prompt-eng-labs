@@ -30,6 +30,15 @@ Write a response.
 ```
 </details>
 
+<details>
+<summary>💡 Prompt A: Issues</summary> 
+
+1. **Vague role** — "You are helpful" provides no context about expertise, company, or communication style
+2. **No context** — No information about what company, what product, what the password reset process actually is, or what resources are available
+3. **No constraints** — No guidance on tone (empathetic vs. formal), what to offer (refund? expedited support?), or what NOT to say
+4. **No format** — Should the response include steps? Links? A phone number?
+5. **Missing de-escalation guidance** — Angry customer requires specific handling approach
+</details>
 
 <details>
 <summary>Prompt B: The Report Generator</summary>
@@ -37,6 +46,16 @@ Write a response.
 ```
 Make me a report about sales.
 ```
+</details>
+
+<details>
+<summary>💡 Prompt B: Issues</summary> 
+
+1. **No context** — What sales? What time period? What company? What business unit?
+2. **No format** — Should this be a summary, a detailed analysis, a presentation, a spreadsheet?
+3. **No task specificity** — What should the report accomplish? Who's the audience?
+4. **No constraints** — Length, sections to include, data to focus on, comparative analysis?
+
 </details>
 
 <details>
@@ -62,6 +81,16 @@ And don't use bullet points but make it scannable.
 </details>
 
 <details>
+<summary>💡 Prompt C: Issues</summary> 
+
+1. **Contradictory instructions** — "Don't be too technical" vs "explain all the computer science concepts"
+2. **Contradictory formatting** — "Short but comprehensive"
+3. **Contradictory formatting** — "Don't use bullet points but make it scannable"
+4. **Vague success criteria** — What makes code "good" or "bad"? Performance? Readability? Security?
+5. **No audience definition** — Is this for a junior developer or a CTO?
+</details>
+
+<details>
 <summary>Prompt D: The Marketing Copy Writer</summary>
 
 ```
@@ -72,33 +101,9 @@ interested. Make it pop! Think outside the box and push the envelope.
 ```
 </details>
 
-
----
-
 <details>
-<summary>💡 LAB 1 Answer Key</summary> 
+<summary>💡 Prompt D: Issues</summary> 
 
-### Prompt A Issues:
-1. **Vague role** — "You are helpful" provides no context about expertise, company, or communication style
-2. **No context** — No information about what company, what product, what the password reset process actually is, or what resources are available
-3. **No constraints** — No guidance on tone (empathetic vs. formal), what to offer (refund? expedited support?), or what NOT to say
-4. **No format** — Should the response include steps? Links? A phone number?
-5. **Missing de-escalation guidance** — Angry customer requires specific handling approach
-
-### Prompt B Issues:
-1. **No context** — What sales? What time period? What company? What business unit?
-2. **No format** — Should this be a summary, a detailed analysis, a presentation, a spreadsheet?
-3. **No task specificity** — What should the report accomplish? Who's the audience?
-4. **No constraints** — Length, sections to include, data to focus on, comparative analysis?
-
-### Prompt C Issues:
-1. **Contradictory instructions** — "Don't be too technical" vs "explain all the computer science concepts"
-2. **Contradictory formatting** — "Short but comprehensive"
-3. **Contradictory formatting** — "Don't use bullet points but make it scannable"
-4. **Vague success criteria** — What makes code "good" or "bad"? Performance? Readability? Security?
-5. **No audience definition** — Is this for a junior developer or a CTO?
-
-### Prompt D Issues:
 1. **No specifics about the product** — Can't write good copy without knowing what we're selling
 2. **Vague target audience** — "Everyone who might be interested" is not actionable
 3. **Clichés instead of direction** — "Make it pop," "think outside the box," "push the envelope" are meaningless
