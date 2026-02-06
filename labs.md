@@ -366,11 +366,17 @@ Try multiple roles with the same base task:
 
 ---
 
+</details>
+
+
+
 # Lab #3 - Creating Your Own Intelligence Briefing
 
 **Purpose: Use AI to help keep you up-to-date on AI.**
 
 <br><br>
+
+<details>
 
 ## Extended Prompt
 
@@ -497,7 +503,7 @@ Filter for developments specifically relevant to [YOUR INDUSTRY: healthcare/fina
 </p>
 </br></br>
 
-
+</details>
 <p align="center">
 <b>For educational use only by the attendees of our workshops.</b>
 </p>
