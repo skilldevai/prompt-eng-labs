@@ -377,9 +377,13 @@ Try multiple roles with the same base task:
 
 <br><br>
 
+
 <details>
 
-## Extended Prompt
+
+<details>
+
+<summary>Extended Prompt</summary>
 
 ```
 "Please provide me with a structured AI intelligence briefing covering the last 7-14 days. Format your response as an executive briefing with the following sections:
@@ -437,7 +441,7 @@ End with a 'THREE THINGS TO DO THIS WEEK' section with specific, actionable reco
 Focus on practical, business-relevant developments over purely academic research. Prioritize information from the last 14 days, and clearly mark anything older as 'BACKGROUND' if it's essential context."
 
 ```
-
+</details>
 <br><br>
 
 ## 1: Try out the simple one-line prompt
@@ -510,5 +514,5 @@ Filter for developments specifically relevant to [YOUR INDUSTRY: healthcare/fina
 </p>
 
 <p align="center">
-<b>(c) 2025 Tech Skills Transformations and Brent C. Laster. All rights reserved.</b>
+<b>(c) 2026 Tech Skills Transformations and Brent C. Laster. All rights reserved.</b>
 </p>
