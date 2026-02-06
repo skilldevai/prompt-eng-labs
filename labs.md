@@ -40,6 +40,8 @@ Write a response.
 5. **Missing de-escalation guidance** — Angry customer requires specific handling approach
 </details>
 
+<br><br>
+
 <details>
 <summary>Prompt B: The Report Generator</summary>
 
@@ -57,6 +59,8 @@ Make me a report about sales.
 4. **No constraints** — Length, sections to include, data to focus on, comparative analysis?
 
 </details>
+
+<br><br>
 
 <details>
 <summary>Prompt C: The Code Reviewer</summary>
@@ -90,6 +94,8 @@ And don't use bullet points but make it scannable.
 5. **No audience definition** — Is this for a junior developer or a CTO?
 </details>
 
+<br><br>
+
 <details>
 <summary>Prompt D: The Marketing Copy Writer</summary>
 
@@ -110,6 +116,8 @@ interested. Make it pop! Think outside the box and push the envelope.
 4. **Platform mismatch** — "Work on all platforms" ignores that Twitter, LinkedIn, TikTok, etc. have different formats, audiences, and norms
 5. **No constraints** — Character limits, hashtag requirements, CTA requirements, brand voice guidelines
 </details>
+
+<br><br>
 
 ---
 
@@ -135,69 +143,7 @@ Summarize these meeting notes into action items.
 ### Your Task:
 Rewrite this prompt using the **few-shot technique** (provide 2-3 examples of input→output pairs before the actual task).
 
-### Your Improved Prompt:
-
-
-### Test It! 
-Paste your new prompt into ChatGPT with these sample meeting notes:
-
-> "Team discussed Q3 roadmap. Sarah mentioned we need to finalize the API documentation by end of month. John said he'd set up a meeting with the security team. Budget review pushed to next week per Maria's request. Everyone agreed to test the new deployment pipeline before Thursday."
-
-</details>
----
-
-<details>
-<summary>Challenge 2: Apply Chain of Thought</summary>
-
-### Original Weak Prompt:
-```
-Our startup has $500K remaining runway, burns $80K/month, has 3 
-enterprise deals in pipeline worth $150K each (60% close rate), 
-and was offered $1M at a $5M valuation. Should we take the funding?
-```
-
-### Your Task:
-Rewrite this prompt using the **chain of thought technique** (explicitly ask for step-by-step reasoning).
-
-### Your Improved Prompt:
-
-### Test It!
-Run both the original and your improved version in ChatGPT. Compare:
-- Does the improved version show clearer reasoning?
-- Can you verify the logic more easily?
-- Which would you trust more for an actual decision?
-</details>
-
----
-
-<details>
-  
-<summary>Challenge 3: Apply Role + Constraints</summary>
-
-### Original Weak Prompt:
-```
-Explain machine learning to my team.
-```
-
-### Your Task:
-Rewrite this prompt using **role-based + constrained** techniques (assign a specific expert role AND add clear constraints).
-
-### Your Improved Prompt:
-
-
-### Test It!
-Try multiple roles with the same base task:
-- What changes when you specify "data scientist explaining to marketing"?
-- What about "tech lead explaining to executives"?
-- How about "teacher explaining to high school students"?
-
-</details>
-
----
-
-
-💡 LAB 2 Sample Solutions
-
+### 
 <details>
 <summary>Challenge 1: Few-Shot Solution</summary>
 
@@ -237,8 +183,35 @@ Thursday."
 Action items:
 ```
 </details>
+
+<details>
+<summary>Challenge 1: Test example</summary>
+
+Paste your new prompt into ChatGPT with these sample meeting notes:
+
+> "Team discussed Q3 roadmap. Sarah mentioned we need to finalize the API documentation by end of month. John said he'd set up a meeting with the security team. Budget review pushed to next week per Maria's request. Everyone agreed to test the new deployment pipeline before Thursday."
+</details>
+
+</details>
+
 ---
 
+<br><br>
+
+<details>
+<summary>Challenge 2: Apply Chain of Thought</summary>
+
+### Original Weak Prompt:
+```
+Our startup has $500K remaining runway, burns $80K/month, has 3 
+enterprise deals in pipeline worth $150K each (60% close rate), 
+and was offered $1M at a $5M valuation. Should we take the funding?
+```
+
+### Your Task:
+Rewrite this prompt using the **chain of thought technique** (explicitly ask for step-by-step reasoning).
+
+### 
 <details>
 <summary>Challenge 2: Chain of Thought Solution</summary>
 
@@ -278,6 +251,32 @@ Show your math at each step.
 ---
 
 <details>
+<summary>Challenge 2: Test example</summary>
+Run both the original and your improved version in ChatGPT. Compare:
+- Does the improved version show clearer reasoning?
+- Can you verify the logic more easily?
+- Which would you trust more for an actual decision?
+</details>
+</details>
+
+---
+
+<br><br>
+
+<details>
+  
+<summary>Challenge 3: Apply Role + Constraints</summary>
+
+### Original Weak Prompt:
+```
+Explain machine learning to my team.
+```
+
+### Your Task:
+Rewrite this prompt using **role-based + constrained** techniques (assign a specific expert role AND add clear constraints).
+
+### 
+<details>
 <summary>Challenge 3: Role + Constraints Solution</summary>
 
 ```
@@ -312,6 +311,21 @@ FORMAT:
 5. Three client discovery questions
 ```
 </details>
+
+
+<details>
+<summary>Challenge 3: Test example</summary>
+Try multiple roles with the same base task:
+- What changes when you specify "data scientist explaining to marketing"?
+- What about "tech lead explaining to executives"?
+- How about "teacher explaining to high school students"?
+
+</details>
+
+---
+
+<br><br>
+
 
 ---
 
