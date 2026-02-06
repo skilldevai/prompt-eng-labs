@@ -366,9 +366,10 @@ Try multiple roles with the same base task:
 
 ---
 
+
 </details>
 
-
+<br><br>
 
 # Lab #3 - Creating Your Own Intelligence Briefing
 
